@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:screenOrientation="sensorLandscape">
+
+    <TextView
+        android:text="Game Rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="40dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:text="This is a game called Five-In-A-Roll.\nPlayers take turns to put a chess on the board.\nThe one who first makes five chess in a line will win the game.\nHope you enjoy it! :)\n\nDeveloped by:
+        Team 16HCB Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_marginTop="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/home"/>
+</LinearLayout>

@@ -1,0 +1,519 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 240 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1718391 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/String length ()I 3097 1 726656 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2049 12393 2567 0 -1
+ciMethod java/util/Map isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map values ()Ljava/util/Collection; 0 0 1 0 -1
+ciMethod java/util/Map entrySet ()Ljava/util/Set; 0 0 1 0 -1
+ciMethod java/util/Collection size ()I 0 0 1 0 -1
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Collections singletonList (Ljava/lang/Object;)Ljava/util/List; 1 1 1767 0 -1
+ciMethod java/util/Set iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Iterator remove ()V 0 0 1 0 -1
+ciMethod java/lang/Enum ordinal ()I 1105 1 138 0 -1
+ciMethod java/lang/Enum compareTo (Ljava/lang/Enum;)I 2057 1 6409 0 128
+ciMethod java/lang/Enum getDeclaringClass ()Ljava/lang/Class; 1 1 393 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1718391 orig 264 56 157 26 96 0 0 0 0 128 4 135 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 179 209 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String length ()I 2 726656 orig 264 56 157 26 96 0 0 0 0 96 60 135 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 233 167 88 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/AssertionError <init> ()V 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/events/OutputEventListener onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/events/OutputEvent getLogLevel ()Lorg/gradle/api/logging/LogLevel; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/events/LogLevelChangeEvent getNewLogLevel ()Lorg/gradle/api/logging/LogLevel; 1017 1 127 0 0
+ciMethod org/gradle/internal/Factory create ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/sink/OutputEventRenderer$LazyListener onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 3073 1 5504 0 -1
+ciMethod org/gradle/internal/logging/events/RenderableOutputEvent render (Lorg/gradle/internal/logging/text/StyledTextOutput;)V 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/events/CategorisedOutputEvent getTimestamp ()J 2049 1 2712 0 0
+ciMethod org/gradle/internal/logging/events/CategorisedOutputEvent getLogLevel ()Lorg/gradle/api/logging/LogLevel; 1065 1 133 0 0
+ciMethod org/gradle/internal/logging/events/CategorisedOutputEvent getCategory ()Ljava/lang/String; 1033 1 129 0 0
+ciMethod org/gradle/internal/logging/events/StyledTextOutputEvent <init> (JLjava/lang/String;Lorg/gradle/api/logging/LogLevel;Ljava/lang/Object;Ljava/util/List;)V 409 1 107 0 -1
+ciMethod org/gradle/util/GUtil isTrue (Ljava/lang/Object;)Z 4097 1 4508 0 0
+ciMethod java/text/SimpleDateFormat <init> (Ljava/lang/String;)V 25 1 3 0 -1
+ciMethod java/text/DateFormat format (Ljava/util/Date;)Ljava/lang/String; 1873 1 1081 0 -1
+ciMethod org/gradle/internal/logging/console/BuildLogLevelFilterRenderer onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2049 1 2783 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 3081 1 2783 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator doOutput (Lorg/gradle/internal/logging/events/RenderableOutputEvent;)V 1521 1 1174 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator onComplete (Lorg/gradle/internal/logging/events/ProgressCompleteEvent;)V 721 1 764 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator completeOperation (Lorg/gradle/internal/logging/events/ProgressCompleteEvent;Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;)V 1737 1 764 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator onStart (Lorg/gradle/internal/logging/events/ProgressStartEvent;)V 793 1 769 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator access$300 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;)Ljava/util/Map; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator access$400 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;)Lorg/gradle/internal/logging/events/OutputEventListener; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator access$500 ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/console/StyledTextOutputBackedRenderer onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2049 1 1236 0 0
+ciMethod org/gradle/internal/logging/text/AbstractStyledTextOutput println ()Lorg/gradle/internal/logging/text/StyledTextOutput; 1953 1 1163 0 -1
+ciMethod org/gradle/internal/logging/text/AbstractStyledTextOutput text (Ljava/lang/Object;)Lorg/gradle/internal/logging/text/StyledTextOutput; 3089 1 11404 0 -1
+ciMethod org/gradle/internal/logging/text/AbstractStyledTextOutput style (Lorg/gradle/internal/logging/text/StyledTextOutput$Style;)Lorg/gradle/internal/logging/text/StyledTextOutput; 3081 1 3004 0 -1
+ciMethod org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl access$000 (Lorg/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl;)Z 1057 1 132 0 -1
+ciMethod org/gradle/internal/logging/sink/OutputEventRenderer$4 onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2065 1 2752 0 0
+ciMethod org/gradle/internal/logging/events/ProgressStartEvent getShortDescription ()Ljava/lang/String; 1025 1 128 0 0
+ciMethod org/gradle/internal/logging/events/ProgressStartEvent getLoggingHeader ()Ljava/lang/String; 1057 1 132 0 0
+ciMethod org/gradle/internal/logging/events/ProgressStartEvent getProgressOperationId ()Lorg/gradle/internal/logging/events/OperationIdentifier; 1057 1 132 0 0
+ciMethod org/gradle/internal/logging/events/ProgressStartEvent getBuildOperationId ()Ljava/lang/Object; 1049 1 131 0 0
+ciMethod org/gradle/internal/logging/events/ProgressCompleteEvent getStatus ()Ljava/lang/String; 1049 1 131 0 0
+ciMethod org/gradle/internal/logging/events/ProgressCompleteEvent getProgressOperationId ()Lorg/gradle/internal/logging/events/OperationIdentifier; 1033 1 129 0 0
+ciMethod org/gradle/internal/logging/events/ProgressCompleteEvent getTimestamp ()J 2049 1 1527 0 0
+ciMethod org/gradle/internal/logging/sink/OutputEventRenderer$3 onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 3073 1 2752 0 0
+ciMethod java/util/Date <init> (J)V 2057 1 2903 0 -1
+ciMethodData java/lang/Enum compareTo (Ljava/lang/Enum;)I 2 6409 orig 264 56 157 26 96 0 0 0 0 56 76 157 23 0 0 0 0 96 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 65 192 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 16 0 2 0 0 0 16 1 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 34 0x50005 0x1dd 0x1e5b30b0 0x1626 0x19c919a0 0x5 0x90005 0x1dd 0x1e5b30b0 0x1626 0x19c919a0 0x5 0xc0007 0x1808 0xb0 0x0 0x100005 0x0 0x0 0x0 0x0 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x170007 0x0 0x30 0x0 0x1e0002 0x0 oops 4 2 org/gradle/api/logging/LogLevel 4 org/gradle/api/JavaVersion 8 org/gradle/api/logging/LogLevel 10 org/gradle/api/JavaVersion
+ciMethodData org/gradle/internal/logging/sink/OutputEventRenderer$LazyListener onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2 5504 orig 264 56 157 26 96 0 0 0 0 240 186 203 23 0 0 0 0 0 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 176 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 22 0x40007 0x1400 0x80 0x0 0xc0005 0x0 0x0 0x0 0x0 0x0 0x110004 0x0 0x0 0x0 0x0 0x0 0x210005 0x0 0x1e5afcf0 0xa00 0x1e5afda0 0xa00 oops 2 18 org/gradle/internal/logging/sink/OutputEventRenderer$4 20 org/gradle/internal/logging/sink/OutputEventRenderer$3
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation <init> (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;Ljava/lang/String;Ljava/lang/String;JLjava/lang/Object;)V 1809 1 769 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation plainTextEvent (JLjava/lang/String;)Lorg/gradle/internal/logging/events/StyledTextOutputEvent; 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation doOutput (Lorg/gradle/internal/logging/events/RenderableOutputEvent;)V 0 0 1 0 -1
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation startHeader ()V 1809 1 769 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation completeHeader ()V 0 0 18 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation complete ()V 1737 1 764 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation access$002 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;Ljava/lang/String;)Ljava/lang/String; 1737 1 764 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation access$102 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;J)J 1737 1 764 0 0
+ciMethod org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation <init> (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;Ljava/lang/String;Ljava/lang/String;JLjava/lang/Object;Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$1;)V 1809 1 769 0 0
+ciMethodData org/gradle/internal/logging/console/BuildLogLevelFilterRenderer onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2 2783 orig 264 56 157 26 96 0 0 0 0 208 92 235 23 0 0 0 0 0 3 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 249 78 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 176 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 54 0x10005 0x41e 0x1e5b4da0 0x2e0 0x1e5b4e50 0x2e1 0x40007 0x38 0xa0 0x9a7 0x80005 0x3e6 0x1e5b4da0 0x2e0 0x1e5b4e50 0x2e1 0xf0005 0x0 0x1e5b30b0 0x9a7 0x0 0x0 0x120007 0x9a7 0x20 0x0 0x170004 0xfffffffffffff63d 0x1e5b68e0 0x1c 0x0 0x0 0x1a0007 0x9c3 0x80 0x1c 0x1e0004 0x0 0x1e5b68e0 0x1c 0x0 0x0 0x240005 0x0 0x1e5b68e0 0x1c 0x0 0x0 0x2f0005 0x0 0x19c8f2c0 0x9df 0x0 0x0 oops 9 2 org/gradle/internal/logging/events/ProgressStartEvent 4 org/gradle/internal/logging/events/ProgressCompleteEvent 12 org/gradle/internal/logging/events/ProgressStartEvent 14 org/gradle/internal/logging/events/ProgressCompleteEvent 18 org/gradle/api/logging/LogLevel 28 org/gradle/internal/logging/events/LogLevelChangeEvent 38 org/gradle/internal/logging/events/LogLevelChangeEvent 44 org/gradle/internal/logging/events/LogLevelChangeEvent 50 org/gradle/internal/logging/sink/ProgressLogEventGenerator
+ciMethodData org/gradle/internal/logging/events/CategorisedOutputEvent getTimestamp ()J 2 2712 orig 264 56 157 26 96 0 0 0 0 88 59 204 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 193 76 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/gradle/internal/logging/sink/OutputEventRenderer$4 onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2 2752 orig 264 56 157 26 96 0 0 0 0 104 10 236 23 0 0 0 0 32 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 241 77 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 208 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 26 0x10005 0x402 0x1e5b4da0 0x2dc 0x1e5b4e50 0x2e0 0x70007 0x94c 0x70 0x72 0xb0005 0x0 0x1fd43fc0 0x6b 0x1fd44070 0x7 0xe0007 0x72 0x50 0x0 0x160005 0x0 0x1e5b4f00 0x94c 0x0 0x0 oops 5 2 org/gradle/internal/logging/events/ProgressStartEvent 4 org/gradle/internal/logging/events/ProgressCompleteEvent 12 org/gradle/internal/logging/events/StyledTextOutputEvent 14 org/gradle/internal/logging/events/LogEvent 22 org/gradle/internal/logging/console/BuildLogLevelFilterRenderer
+ciMethodData org/gradle/util/GUtil isTrue (Ljava/lang/Object;)Z 2 4508 orig 264 56 157 26 96 0 0 0 0 240 209 224 23 0 0 0 0 56 3 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 124 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 240 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 62 0x10007 0x978 0x20 0x624 0x70004 0xfffffffffffff6b3 0x47a9a60 0x5 0x1fc25fe0 0x2b 0xa0007 0x94d 0xb8 0x2b 0xe0004 0x0 0x1fc25fe0 0x2b 0x0 0x0 0x110005 0x0 0x1fc25fe0 0x2b 0x0 0x0 0x160007 0xe 0x38 0x1d 0x1a0003 0x1d 0x18 0x200004 0xffffffffffffffc2 0x47a9a60 0x90f 0x0 0x0 0x230007 0x3e 0xb8 0x90f 0x270004 0x0 0x47a9a60 0x90f 0x0 0x0 0x2a0005 0x5 0x47a9a60 0x90a 0x0 0x0 0x2d0007 0x2a5 0x38 0x66a 0x310003 0x66a 0x18 oops 7 6 java/lang/String 8 java/util/HashSet 16 java/util/HashSet 22 java/util/HashSet 35 java/lang/String 45 java/lang/String 51 java/lang/String
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2 2783 orig 264 56 157 26 96 0 0 0 0 40 105 235 23 0 0 0 0 200 3 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 241 74 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 120 2 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 79 0x10004 0xfffffffffffff940 0x1e5b4da0 0x29e 0x0 0x0 0x40007 0x6c0 0x78 0x29e 0x90004 0x0 0x1e5b4da0 0x29e 0x0 0x0 0xc0002 0x29e 0xf0003 0x29e 0x1e8 0x130004 0xfffffffffffffbe2 0x1e5b4e50 0x2a2 0x0 0x0 0x160007 0x41e 0x78 0x2a2 0x1b0004 0x0 0x1e5b4e50 0x2a2 0x0 0x0 0x1e0002 0x2a2 0x210003 0x2a2 0x140 0x250004 0xffffffffffffffba 0x1fd43fc0 0x6b 0x1fd44070 0x36d 0x280007 0x46 0x78 0x3d8 0x2d0004 0x0 0x1fd43fc0 0x6b 0x1fd44070 0x36d 0x300002 0x3d8 0x330003 0x3d8 0x98 0x370004 0xffffffffffffffc8 0x19c95cb0 0xe 0x0 0x0 0x3a0007 0xe 0x50 0x38 0x420005 0x0 0x1fd44120 0x38 0x0 0x0 oops 10 2 org/gradle/internal/logging/events/ProgressStartEvent 12 org/gradle/internal/logging/events/ProgressStartEvent 23 org/gradle/internal/logging/events/ProgressCompleteEvent 33 org/gradle/internal/logging/events/ProgressCompleteEvent 44 org/gradle/internal/logging/events/StyledTextOutputEvent 46 org/gradle/internal/logging/events/LogEvent 54 org/gradle/internal/logging/events/StyledTextOutputEvent 56 org/gradle/internal/logging/events/LogEvent 65 org/gradle/internal/logging/events/ProgressEvent 75 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator onStart (Lorg/gradle/internal/logging/events/ProgressStartEvent;)V 1 769 orig 264 56 157 26 96 0 0 0 0 72 109 235 23 0 0 0 0 208 3 0 0 48 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99 0 0 0 241 20 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 128 2 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 80 0x60005 0x0 0x1e5b4da0 0x29e 0x0 0x0 0xa0005 0x0 0x1e5b4da0 0x29e 0x0 0x0 0xe0005 0x0 0x1e5b4da0 0x29e 0x0 0x0 0x120005 0x0 0x1e5b4da0 0x29e 0x0 0x0 0x160002 0x29e 0x1f0005 0x0 0x1e5b4da0 0x29e 0x0 0x0 0x230005 0x0 0x1fd48ee0 0x29e 0x0 0x0 0x2d0007 0x29e 0x120 0x0 0x310005 0x0 0x0 0x0 0x0 0x0 0x340007 0x0 0xd0 0x0 0x380005 0x0 0x0 0x0 0x0 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 0x3f0005 0x0 0x0 0x0 0x0 0x0 0x420007 0x0 0x50 0x0 0x460005 0x0 0x1fd46f70 0x29e 0x0 0x0 oops 7 2 org/gradle/internal/logging/events/ProgressStartEvent 8 org/gradle/internal/logging/events/ProgressStartEvent 14 org/gradle/internal/logging/events/ProgressStartEvent 20 org/gradle/internal/logging/events/ProgressStartEvent 28 org/gradle/internal/logging/events/ProgressStartEvent 34 java/util/LinkedHashMap 76 org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator onComplete (Lorg/gradle/internal/logging/events/ProgressCompleteEvent;)V 1 764 orig 264 56 157 26 96 0 0 0 0 112 107 235 23 0 0 0 0 168 4 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 0 0 0 17 21 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 10 0 2 0 0 0 88 3 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 107 0x30007 0x2a2 0x80 0x0 0xa0005 0x0 0x0 0x0 0x0 0x0 0xf0007 0x0 0x30 0x0 0x160002 0x0 0x1f0005 0x0 0x1e5b4e50 0x2a2 0x0 0x0 0x220005 0x0 0x1fd48ee0 0x2a2 0x0 0x0 0x270004 0x0 0x1fd46f70 0x2a2 0x0 0x0 0x2c0007 0x2a2 0x238 0x0 0x330005 0x0 0x0 0x0 0x0 0x0 0x380005 0x0 0x0 0x0 0x0 0x0 0x3f0005 0x0 0x0 0x0 0x0 0x0 0x440004 0x0 0x0 0x0 0x0 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x4f0007 0x0 0x98 0x0 0x530005 0x0 0x0 0x0 0x0 0x0 0x580004 0x0 0x0 0x0 0x0 0x0 0x5d0003 0x0 0xffffffffffffff50 0x610005 0x0 0x0 0x0 0x0 0x0 0x680005 0x0 0x0 0x0 0x0 0x0 0x6d0004 0x0 0x0 0x0 0x0 0x0 0x740002 0x2a2 oops 3 18 org/gradle/internal/logging/events/ProgressCompleteEvent 24 java/util/LinkedHashMap 30 org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator doOutput (Lorg/gradle/internal/logging/events/RenderableOutputEvent;)V 1 1174 orig 264 56 157 26 96 0 0 0 0 32 106 235 23 0 0 0 0 216 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 190 0 0 0 193 30 0 0 145 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 136 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 49 0x40005 0x0 0x1fd48ee0 0x3d8 0x0 0x0 0x90005 0x0 0x1a6f5f80 0x3d8 0x0 0x0 0x100005 0x0 0x1a6f6030 0x3ea 0x0 0x0 0x150007 0x3d8 0xc8 0x12 0x190005 0x0 0x1a6f6030 0x12 0x0 0x0 0x1e0004 0x0 0x1fd46f70 0x12 0x0 0x0 0x230005 0x0 0x1fd46f70 0x12 0x0 0x0 0x260003 0x12 0xffffffffffffff20 0x2e0005 0x0 0x1fd44120 0x3d8 0x0 0x0 oops 7 2 java/util/LinkedHashMap 8 java/util/LinkedHashMap$LinkedValues 14 java/util/LinkedHashMap$LinkedValueIterator 24 java/util/LinkedHashMap$LinkedValueIterator 30 org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation 36 org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation 45 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer
+ciMethodData org/gradle/internal/logging/sink/OutputEventRenderer$3 onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 2 2752 orig 264 56 157 26 96 0 0 0 0 240 41 236 23 0 0 0 0 32 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 1 74 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 208 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 26 0x10005 0x402 0x1e5b4da0 0x29d 0x1e5b4e50 0x2a1 0x70007 0x72 0x70 0x8ce 0xb0005 0x390 0x1e5b4da0 0x29d 0x1e5b4e50 0x2a1 0xe0007 0x8b2 0x50 0x1c 0x160005 0x0 0x1e5b4f00 0x8e 0x0 0x0 oops 5 2 org/gradle/internal/logging/events/ProgressStartEvent 4 org/gradle/internal/logging/events/ProgressCompleteEvent 12 org/gradle/internal/logging/events/ProgressStartEvent 14 org/gradle/internal/logging/events/ProgressCompleteEvent 22 org/gradle/internal/logging/console/BuildLogLevelFilterRenderer
+ciMethod org/gradle/internal/logging/events/StyledTextOutputEvent$Span <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethodData org/gradle/internal/logging/console/StyledTextOutputBackedRenderer onOutput (Lorg/gradle/internal/logging/events/OutputEvent;)V 1 1236 orig 264 56 157 26 96 0 0 0 0 144 148 235 23 0 0 0 0 112 7 0 0 160 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 161 30 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 71 0 2 0 0 0 32 6 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 196 0x10004 0xfffffffffffffc46 0x1e5b68e0 0x1a 0x0 0x0 0x40007 0x3ba 0x108 0x1a 0x80004 0x0 0x1e5b68e0 0x1a 0x0 0x0 0xe0005 0x0 0x1e5b68e0 0x1a 0x0 0x0 0x140007 0xe 0x38 0xc 0x180003 0xc 0x18 0x230007 0xe 0x50 0xc 0x2a0007 0xc 0x30 0x0 0x340002 0x0 0x3b0004 0xffffffffffffffcc 0x1fd44070 0x346 0x1fd43fc0 0x5a 0x3e0007 0x34 0x4b8 0x3a0 0x420004 0x0 0x1fd44070 0x346 0x1fd43fc0 0x5a 0x4b0005 0x0 0x1fd44070 0x346 0x1fd43fc0 0x5a 0x510007 0x340 0x38 0x60 0x570003 0x60 0x18 0x5d0005 0x0 0x1a6fa4d0 0x3a0 0x0 0x0 0x650007 0x5d 0x370 0x343 0x6c0002 0x343 0x6f0007 0x343 0xf0 0x0 0x760007 0x0 0xd0 0x0 0x7d0005 0x0 0x0 0x0 0x0 0x0 0x810005 0x0 0x0 0x0 0x0 0x0 0x840005 0x0 0x0 0x0 0x0 0x0 0x870007 0x0 0x270 0x0 0x8e0002 0x343 0x910007 0x343 0x50 0x0 0x980005 0x0 0x0 0x0 0x0 0x0 0xa90005 0x0 0x1fd44070 0x343 0x0 0x0 0xac0002 0x343 0xaf0005 0x0 0x19e17370 0x343 0x0 0x0 0xb20005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xbc0005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xc50005 0x0 0x1fd44070 0x343 0x0 0x0 0xc80005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xd20005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xdb0005 0x0 0x1fd44070 0x343 0x0 0x0 0xde0005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xe80005 0x0 0x1a6fa4d0 0x343 0x0 0x0 0xf10005 0x0 0x1fd44070 0x346 0x1fd43fc0 0x5a 0x1000005 0x0 0x1a6fa4d0 0x3a0 0x0 0x0 oops 23 2 org/gradle/internal/logging/events/LogLevelChangeEvent 12 org/gradle/internal/logging/events/LogLevelChangeEvent 18 org/gradle/internal/logging/events/LogLevelChangeEvent 41 org/gradle/internal/logging/events/LogEvent 43 org/gradle/internal/logging/events/StyledTextOutputEvent 51 org/gradle/internal/logging/events/LogEvent 53 org/gradle/internal/logging/events/StyledTextOutputEvent 57 org/gradle/internal/logging/events/LogEvent 59 org/gradle/internal/logging/events/StyledTextOutputEvent 70 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 124 org/gradle/internal/logging/events/LogEvent 132 java/text/SimpleDateFormat 138 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 144 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 150 org/gradle/internal/logging/events/LogEvent 156 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 162 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 168 org/gradle/internal/logging/events/LogEvent 174 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 180 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl 186 org/gradle/internal/logging/events/LogEvent 188 org/gradle/internal/logging/events/StyledTextOutputEvent 192 org/gradle/internal/logging/console/StyledTextOutputBackedRenderer$OutputEventTextOutputImpl
+ciMethodData org/gradle/internal/logging/events/ProgressCompleteEvent getTimestamp ()J 2 1527 orig 264 56 157 26 96 0 0 0 0 112 31 236 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 185 39 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator completeOperation (Lorg/gradle/internal/logging/events/ProgressCompleteEvent;Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;)V 1 764 orig 264 56 157 26 96 0 0 0 0 64 108 235 23 0 0 0 0 8 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 217 0 0 0 25 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 176 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 22 0x20005 0x0 0x1e5b4e50 0x223 0x0 0x0 0x50002 0x223 0xb0005 0x0 0x1e5b4e50 0x223 0x0 0x0 0xe0002 0x223 0x130005 0x0 0x1fd46f70 0x223 0x0 0x0 oops 3 2 org/gradle/internal/logging/events/ProgressCompleteEvent 10 org/gradle/internal/logging/events/ProgressCompleteEvent 18 org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation access$002 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;Ljava/lang/String;)Ljava/lang/String; 1 764 orig 264 56 157 26 96 0 0 0 0 184 126 3 30 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 217 0 0 0 25 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation access$102 (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation;J)J 1 764 orig 264 56 157 26 96 0 0 0 0 104 127 3 30 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 217 0 0 0 25 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation complete ()V 1 764 orig 264 56 157 26 96 0 0 0 0 8 126 3 30 0 0 0 0 32 9 0 0 224 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 217 0 0 0 25 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 49 0 2 0 0 0 216 7 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 251 0x40002 0x223 0xf0005 0x89 0x1bd08740 0x19a 0x0 0x0 0x130008 0x8 0x0 0x6e8 0x0 0x50 0x0 0x340 0x89 0x500 0x300007 0x0 0x1e8 0x0 0x340007 0x0 0x1c8 0x0 0x4b0002 0x0 0x520005 0x0 0x0 0x0 0x0 0x0 0x570005 0x0 0x0 0x0 0x0 0x0 0x5a0005 0x0 0x0 0x0 0x0 0x0 0x5d0002 0x0 0x600004 0x0 0x0 0x0 0x0 0x0 0x6e0002 0x0 0x710004 0x0 0x0 0x0 0x0 0x0 0x780002 0x0 0x7b0002 0x0 0x7e0004 0x0 0x0 0x0 0x0 0x0 0x7f0002 0x0 0x820002 0x0 0x850003 0x0 0x578 0x8c0007 0x0 0x560 0x0 0x990002 0x0 0xa00005 0x0 0x0 0x0 0x0 0x0 0xa30002 0x0 0xa60005 0x0 0x0 0x0 0x0 0x0 0xa90005 0x0 0x0 0x0 0x0 0x0 0xac0002 0x0 0xaf0002 0x0 0xb20003 0x0 0x470 0xb80007 0x0 0x50 0x0 0xbf0007 0x0 0x30 0x0 0xc60002 0x0 0xcb0007 0x0 0x128 0x0 0xe00002 0x0 0xe30004 0x0 0x0 0x0 0x0 0x0 0xf10002 0x0 0xf40004 0x0 0x0 0x0 0x0 0x0 0xfb0002 0x0 0xfe0002 0x0 0x1010004 0x0 0x0 0x0 0x0 0x0 0x1020002 0x0 0x1050002 0x0 0x1080003 0x0 0x2f8 0x1110002 0x0 0x1140002 0x0 0x1170002 0x0 0x11a0003 0x0 0x2b0 0x1210007 0x223 0x298 0x0 0x1250007 0x0 0x278 0x0 0x13c0002 0x0 0x1430005 0x0 0x0 0x0 0x0 0x0 0x1480005 0x0 0x0 0x0 0x0 0x0 0x14b0005 0x0 0x0 0x0 0x0 0x0 0x14e0002 0x0 0x1510004 0x0 0x0 0x0 0x0 0x0 0x15f0002 0x0 0x1620004 0x0 0x0 0x0 0x0 0x0 0x1690002 0x0 0x16c0002 0x0 0x16f0004 0x0 0x0 0x0 0x0 0x0 0x1700002 0x0 0x1730002 0x0 0x1760003 0x0 0xc8 0x1810002 0x0 0x1860005 0x0 0x0 0x0 0x0 0x0 0x18d0005 0x0 0x0 0x0 0x0 0x0 0x1900005 0x0 0x0 0x0 0x0 0x0 0x1930002 0x0 oops 1 4 org/gradle/internal/logging/sink/ProgressLogEventGenerator$State
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation completeHeader ()V 1 18 orig 264 56 157 26 96 0 0 0 0 168 123 3 30 0 0 0 0 40 4 0 0 24 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 224 2 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 92 0x70005 0x12 0x0 0x0 0x0 0x0 0xb0008 0x8 0x0 0x200 0x0 0x50 0x0 0x188 0x12 0x200 0x280007 0x0 0x260 0x0 0x2f0002 0x0 0x3b0002 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 0x450002 0x0 0x480005 0x0 0x0 0x0 0x0 0x0 0x4b0005 0x0 0x0 0x0 0x0 0x0 0x4e0002 0x0 0x510005 0x0 0x0 0x0 0x0 0x0 0x560003 0x0 0x140 0x5d0002 0x0 0x650002 0x0 0x680002 0x0 0x6b0005 0x0 0x0 0x0 0x0 0x0 0x700003 0x0 0xc8 0x7c0002 0x0 0x810005 0x0 0x0 0x0 0x0 0x0 0x880005 0x0 0x0 0x0 0x0 0x0 0x8b0005 0x0 0x0 0x0 0x0 0x0 0x8e0002 0x0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation <init> (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;Ljava/lang/String;Ljava/lang/String;JLjava/lang/Object;Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator$1;)V 1 769 orig 264 56 157 26 96 0 0 0 0 88 128 3 30 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 226 0 0 0 249 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x21f oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation <init> (Lorg/gradle/internal/logging/sink/ProgressLogEventGenerator;Ljava/lang/String;Ljava/lang/String;JLjava/lang/Object;)V 1 769 orig 264 56 157 26 96 0 0 0 0 192 118 3 30 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 226 0 0 0 249 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 4 0x60002 0x21f 0x280002 0x21f oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation startHeader ()V 1 769 orig 264 56 157 26 96 0 0 0 0 96 122 3 30 0 0 0 0 240 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 226 0 0 0 249 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 168 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 21 0x30007 0x21f 0x50 0x0 0xd0007 0x0 0x30 0x0 0x140002 0x0 0x1c0007 0x21f 0x58 0x0 0x300002 0x0 0x330002 0x0 0x360003 0x0 0x18 oops 0
+ciMethodData org/gradle/internal/logging/events/StyledTextOutputEvent$Span <init> (Ljava/lang/String;)V 1 0 orig 264 56 157 26 96 0 0 0 0 144 171 182 34 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation doOutput (Lorg/gradle/internal/logging/events/RenderableOutputEvent;)V 1 0 orig 264 56 157 26 96 0 0 0 0 120 121 3 30 0 0 0 0 48 3 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 224 1 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 60 0x40002 0x0 0x70005 0x0 0x0 0x0 0x0 0x0 0xc0005 0x0 0x0 0x0 0x0 0x0 0x130005 0x0 0x0 0x0 0x0 0x0 0x180007 0x0 0x100 0x0 0x1c0005 0x0 0x0 0x0 0x0 0x0 0x210004 0x0 0x0 0x0 0x0 0x0 0x270007 0x0 0x38 0x0 0x2a0003 0x0 0x60 0x2e0005 0x0 0x0 0x0 0x0 0x0 0x310003 0x0 0xfffffffffffffee8 0x380002 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/gradle/internal/logging/sink/ProgressLogEventGenerator$Operation plainTextEvent (JLjava/lang/String;)Lorg/gradle/internal/logging/events/StyledTextOutputEvent; 1 0 orig 264 56 157 26 96 0 0 0 0 152 119 3 30 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 2 0 21 0 0 0 0 0 data 6 0x150002 0x0 0x180002 0x0 0x1b0002 0x0 oops 0
+instanceKlass JetGradlePlugin
+instanceKlass org/jetbrains/kotlin/gradle/KotlinGradleModelBuilder$Companion
+instanceKlass org/jetbrains/kotlin/gradle/KotlinGradleModelBuilder
+instanceKlass org/jetbrains/kotlin/android/synthetic/idea/AndroidExtensionsModelBuilderService
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ProjectExtensionsDataBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalPlugin
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalTask
+instanceKlass org/jetbrains/plugins/gradle/model/DefaultExternalProject
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalProjectPreview
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalProject
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalSourceSet
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/TasksFactory
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ExternalProjectBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/scala/ScalaCompileOptionsImpl
+instanceKlass org/jetbrains/plugins/gradle/model/scala/ScalaCompileOptions
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/scala/ScalaForkOptionsImpl
+instanceKlass org/jetbrains/plugins/gradle/model/scala/ScalaForkOptions
+instanceKlass org/jetbrains/plugins/gradle/model/scala/ScalaModel
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ScalaModelBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/model/ClasspathEntryModel
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ModelBuildScriptClasspathBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/model/ExtIdeaCompilerOutput
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ModuleExtendedModelBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/SourceSetCachedFinder
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/EarModelBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/WarModelBuilderImpl
+instanceKlass com/google/common/collect/Iterators$2
+instanceKlass com/google/common/collect/PeekingIterator
+instanceKlass com/google/common/collect/UnmodifiableIterator
+instanceKlass com/google/common/collect/Iterators
+instanceKlass com/google/common/base/Preconditions
+instanceKlass com/google/common/collect/Lists
+instanceKlass org/jetbrains/plugins/gradle/tooling/ErrorMessageBuilder
+instanceKlass org/jetbrains/plugins/gradle/tooling/ModelBuilderService
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/ExtraModelBuilder
+instanceKlass JetGradlePlugin
+instanceKlass org/gradle/util/GradleVersion
+instanceKlass org/jetbrains/plugins/gradle/model/BuildScriptClasspathModel
+instanceKlass org/jetbrains/plugins/gradle/model/ExtIdeaCompilerOutput
+instanceKlass org/gradle/tooling/model/DomainObjectSet
+instanceKlass org/jetbrains/plugins/gradle/model/ModuleExtendedModel
+instanceKlass org/gradle/tooling/model/gradle/GradleBuild
+instanceKlass org/gradle/tooling/model/BuildModel
+instanceKlass org/jetbrains/plugins/gradle/model/GradleExtensions
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalProject
+instanceKlass org/jetbrains/kotlin/android/synthetic/idea/AndroidExtensionsGradleModel
+instanceKlass com/google/appengine/gradle/model/AppEngineModel
+instanceKlass com/android/builder/model/level2/GlobalLibraryMap
+instanceKlass com/android/builder/model/NativeAndroidProject
+instanceKlass com/android/builder/model/AndroidProject
+instanceKlass org/jetbrains/kotlin/gradle/KotlinGradleModel
+instanceKlass org/gradle/tooling/model/idea/IdeaModule
+instanceKlass org/gradle/tooling/model/HasGradleProject
+instanceKlass org/gradle/tooling/model/ProjectModel
+instanceKlass org/gradle/tooling/model/HierarchicalElement
+instanceKlass org/gradle/tooling/model/Element
+instanceKlass org/jetbrains/plugins/gradle/model/ModelsHolder
+instanceKlass org/gradle/tooling/model/Model
+instanceKlass org/jetbrains/plugins/gradle/model/ProjectImportAction
+instanceKlass org/gradle/tooling/internal/consumer/versioning/VersionDetails
+instanceKlass org/gradle/tooling/BuildAction
+instanceKlass org/gradle/tooling/internal/consumer/connection/HasCompatibilityMapping
+instanceKlass org/gradle/tooling/BuildController
+instanceKlass org/gradle/tooling/internal/adapter/TargetTypeProvider
+instanceKlass org/gradle/tooling/internal/consumer/connection/InternalBuildActionAdapter
+instanceKlass org/gradle/process/internal/health/memory/JvmMemoryStatusSnapshot
+instanceKlass com/google/protobuf/SmallSortedMap$EntryIterator
+instanceKlass com/google/protobuf/GeneratedMessageV3$ExtendableMessage$ExtensionWriter
+instanceKlass org/gradle/workers/internal/WorkerDaemonClientsManager$StopSessionScopedWorkers$1
+instanceKlass com/android/tools/analytics/JournalingUsageTracker$1
+instanceKlass com/google/protobuf/ByteString$CodedBuilder
+instanceKlass com/google/protobuf/Utf8$Processor
+instanceKlass com/google/protobuf/Utf8
+instanceKlass com/google/protobuf/WireFormat
+instanceKlass com/google/protobuf/UnsafeUtil$1
+instanceKlass com/google/protobuf/UnsafeUtil
+instanceKlass com/google/protobuf/ByteOutput
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$LogEventKeyValuesOrBuilder
+instanceKlass com/google/protobuf/ByteString$ArraysByteArrayCopier
+instanceKlass com/google/protobuf/CodedInputStream
+instanceKlass com/google/protobuf/Internal
+instanceKlass com/google/protobuf/ByteString$ByteIterator
+instanceKlass com/google/protobuf/ByteString$ByteArrayCopier
+instanceKlass com/google/protobuf/ByteString
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet$2
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet$1
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet
+instanceKlass com/google/protobuf/LazyFieldLite
+instanceKlass com/google/protobuf/FieldSet
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$AppUsage1pLogEventOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$ExperimentIdsOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$NetworkConnectionInfoOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$ActiveExperimentsOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$LogEventOrBuilder
+instanceKlass com/google/protobuf/GeneratedMessageV3$ExtendableMessageOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventKind$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventCategory$1
+instanceKlass com/google/wireless/android/sdk/stats/LayoutInspectorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkDebugProjectOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/KotlinSupportOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkAnalyzerStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LayoutEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleSyncStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AdbAssistantStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/HypervisorOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorHostOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DeviceInfoOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MetaMetricsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/InstantRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioCrashOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ProductDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GfxTracingDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioProjectChangeOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseErrorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/JvmDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRecorderDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorUiEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleBuildDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/UIActionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MachineDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LLDBFrontendDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AppLinksAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerDbStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseContextDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionEndDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionStartDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEventOrBuilder
+instanceKlass com/google/common/cache/LocalCache$WriteThroughEntry
+instanceKlass com/google/common/cache/LocalCache$HashIterator
+instanceKlass com/android/dx/rop/type/Type
+instanceKlass com/android/dx/rop/cst/Constant
+instanceKlass com/android/dx/rop/code/RegisterSpec$ForComparison
+instanceKlass com/android/dx/rop/code/RegisterSpec
+instanceKlass com/android/dx/rop/type/TypeBearer
+instanceKlass com/android/dx/util/ToHuman
+instanceKlass com/android/dx/rop/type/Prototype
+instanceKlass com/android/dx/cf/direct/AttributeFactory
+instanceKlass com/android/dx/cf/direct/ClassPathOpener$Consumer
+instanceKlass com/android/dx/cf/direct/ClassPathOpener$FileNameFilter
+instanceKlass com/android/dx/command/dexer/Main
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$Key
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$BaseItem
+instanceKlass com/android/builder/internal/compiler/PreProcessCache
+instanceKlass com/android/build/gradle/BasePlugin$1$$Lambda$95
+instanceKlass com/android/ide/common/util/JvmWideVariable$$Lambda$94
+instanceKlass com/android/ide/common/util/JvmWideVariable$$Lambda$93
+instanceKlass com/android/ide/common/internal/ExecutorSingleton$$Lambda$92
+instanceKlass com/android/ide/common/util/JvmWideVariable$$Lambda$91
+instanceKlass com/android/ide/common/internal/ExecutorSingleton
+instanceKlass com/android/build/gradle/internal/BuildSessionImpl$$Lambda$90
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/google/common/base/ExtraObjectsMethodsForWeb
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass com/google/common/collect/HashBiMap$Itr
+instanceKlass com/android/sdklib/AndroidTargetHash
+instanceKlass com/android/sdklib/repository/PackageParserUtils
+instanceKlass java/util/stream/ReduceOps$2ReducingSink
+instanceKlass java/util/function/BinaryOperator$$Lambda$89
+instanceKlass com/android/sdklib/repository/AndroidSdkHandler$$Lambda$88
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/sdklib/repository/AndroidSdkHandler$$Lambda$87
+instanceKlass java/util/TreeMap$TreeMapSpliterator
+instanceKlass com/android/sdklib/repository/AndroidSdkHandler$$Lambda$86
+instanceKlass com/android/sdklib/repository/AndroidSdkHandler$$Lambda$85
+instanceKlass com/android/io/IAbstractFolder
+instanceKlass com/android/io/IAbstractResource
+instanceKlass com/android/sdklib/internal/project/ProjectProperties
+instanceKlass com/android/sdklib/internal/project/IPropertySource
+instanceKlass com/android/sdklib/repository/targets/OptionalLibraryImpl
+instanceKlass com/google/gson/internal/ConstructorConstructor$8
+instanceKlass com/google/common/collect/FluentIterable
+instanceKlass com/google/common/io/ByteSource
+instanceKlass com/google/common/io/ByteSink
+instanceKlass com/google/common/collect/TreeTraverser
+instanceKlass com/google/common/io/Files
+instanceKlass com/google/gson/internal/$Gson$Types$ParameterizedTypeImpl
+instanceKlass com/android/sdklib/repository/targets/PlatformTarget$Library
+instanceKlass com/android/sdklib/repository/targets/PlatformTarget
+instanceKlass com/android/sdklib/repository/targets/AndroidTargetManager$$Lambda$84
+instanceKlass java/util/Comparator$$Lambda$83
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/sdklib/repository/targets/AndroidTargetManager$$Lambda$82
+instanceKlass java/util/Comparator$$Lambda$81
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/sdklib/repository/targets/AndroidTargetManager$$Lambda$80
+instanceKlass com/android/sdklib/AndroidVersion
+instanceKlass com/android/sdklib/IAndroidTarget
+instanceKlass com/android/sdklib/repository/targets/AndroidTargetManager
+instanceKlass com/android/utils/StdLogger
+instanceKlass com/android/SdkConstants
+instanceKlass com/android/builder/sdk/SdkInfo
+instanceKlass com/android/sdklib/repository/AndroidSdkHandler$$Lambda$79
+instanceKlass com/android/repository/api/RepoManager$RepoLoadedCallback
+instanceKlass com/android/sdklib/repository/legacy/remote/internal/sources/SdkSource
+instanceKlass com/android/sdklib/repository/legacy/LegacyRemoteRepoLoader
+instanceKlass java/util/concurrent/ConcurrentLinkedQueue$Itr
+instanceKlass com/google/common/collect/ComparisonChain
+instanceKlass com/google/common/collect/Iterables
+instanceKlass java/util/function/Function$$Lambda$78
+instanceKlass com/android/repository/impl/meta/RepositoryPackages$$Lambda$77
+instanceKlass java/util/HashMap$HashMapSpliterator
+instanceKlass sun/nio/fs/WindowsChannelFactory$2
+instanceKlass com/google/common/hash/Hashing$Md5Holder
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/DefaultIDResolver$1
+instanceKlass com/sun/xml/internal/bind/DatatypeConverterImpl
+instanceKlass javax/xml/bind/DatatypeConverterInterface
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegularExpression$ClosureContext
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegularExpression$ExpressionTarget
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegularExpression$Context
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/Op
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/AttributePSVImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/AttributePSVI
+instanceKlass org/xml/sax/helpers/AttributesImpl
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSDeclarationPool
+instanceKlass com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy
+instanceKlass org/xml/sax/ext/Locator2
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/TagName
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/SAXConnector
+instanceKlass javax/xml/bind/UnmarshallerHandler
+instanceKlass com/sun/xml/internal/bind/v2/util/FatalAdapter
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/ValidatorHandlerImpl$ResolutionForwarder
+instanceKlass javax/xml/validation/TypeInfoProvider
+instanceKlass com/sun/org/apache/xerces/internal/util/AttributesProxy
+instanceKlass com/sun/org/apache/xerces/internal/util/SAXLocatorWrapper
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$LocalIDKey
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$ValueStoreCache
+instanceKlass com/sun/org/apache/xerces/internal/util/IntStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/XPathMatcher
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$XPathMatcherStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSNotationDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$XSIErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/ElementPSVImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/ElementPSVI
+instanceKlass com/sun/org/apache/xerces/internal/xs/ItemPSVI
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/FieldActivator
+instanceKlass javax/xml/validation/ValidatorHandler
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/ValidatorHelper
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/ValidatingUnmarshaller
+instanceKlass com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$AttributesProxy
+instanceKlass org/xml/sax/ext/Attributes2
+instanceKlass org/xml/sax/AttributeList
+instanceKlass org/xml/sax/Parser
+instanceKlass javax/xml/parsers/SAXParser
+instanceKlass com/sun/org/apache/xerces/internal/xs/PSVIProvider
+instanceKlass javax/xml/parsers/SAXParserFactory
+instanceKlass org/xml/sax/helpers/XMLFilterImpl
+instanceKlass javax/xml/transform/sax/SAXSource
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass com/android/repository/impl/meta/SchemaModuleUtil$$Lambda$76
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass javax/xml/bind/ValidationEvent
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/UnmarshallingContext$State
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/Scope
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/LocatorExWrapper
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/LocatorEx
+instanceKlass org/xml/sax/helpers/LocatorImpl
+instanceKlass com/sun/xml/internal/bind/v2/runtime/Coordinator
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/XmlVisitor$TextPredictor
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/XmlVisitor
+instanceKlass javax/xml/namespace/NamespaceContext
+instanceKlass com/sun/xml/internal/bind/IDResolver
+instanceKlass javax/xml/bind/helpers/DefaultValidationEventHandler
+instanceKlass org/xml/sax/helpers/DefaultHandler
+instanceKlass javax/xml/bind/helpers/AbstractUnmarshallerImpl
+instanceKlass javax/xml/bind/ValidationEventHandler
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/ReadOnlyGrammarPool
+instanceKlass javax/xml/validation/Schema
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/XSGrammarPoolContainer
+instanceKlass com/sun/org/apache/xerces/internal/dom/DOMInputImpl
+instanceKlass org/w3c/dom/ls/LSInput
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSAllCM
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/models/CMStateSet
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSDFACM
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/models/CMNode
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSConstraints$1
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSConstraints
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractTraverser$FacetInfo
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSModelGroupImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSModelGroup
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAnnotationImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAnnotation
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeUseImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeUse
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeGroupDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XSObjectListImpl$1
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSObjectList
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSQName
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/NamedNodeMapImpl
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSIDCDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser$ParticleArray
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractTraverser
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/Container
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/OneAttr
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSModelGroupDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSComplexTypeDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSComplexTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSNamespaceItem
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XSGrammar
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XInt
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XIntPool
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSAttributeChecker
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler$XSDKey
+instanceKlass com/sun/org/apache/xerces/internal/util/DOMUtil
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport$Prefixes
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SchemaSymbols
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/DefaultNode
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/Token
+instanceKlass java/util/ResourceBundle$Control$1
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$7
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegexParser
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/REUtil
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegularExpression
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/DecimalDV$XDecimal
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSDecimal
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/ValidatedInfo
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/XSFacets
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl$4
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl$1
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/AbstractDateTimeDV$DateTimeData
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSDateTime
+instanceKlass javax/xml/datatype/DatatypeFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/TypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/XSSimpleType
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSSimpleTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$3
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$2
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$1
+instanceKlass com/sun/org/apache/xerces/internal/utils/ObjectFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/SchemaDVFactory
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLGrammarPoolImpl$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLGrammarPoolImpl
+instanceKlass javax/xml/transform/stream/StreamSource
+instanceKlass com/android/repository/impl/meta/SchemaModuleUtil$1
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/XMLSchemaFactory$XMLGrammarPoolWrapper
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarPool
+instanceKlass com/sun/org/apache/xerces/internal/util/DOMEntityResolverWrapper
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/validation/DraconianErrorHandler
+instanceKlass com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/SchemaDOMParser$BooleanStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/DefaultXMLDocumentHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/SimpleLocator
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolHash$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolHash
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSParticle
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSEmptyCM
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSCMValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/CMBuilder
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler$OneSubGroup
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSElementDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSTerm
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSObject
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSGrammarBucket
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/DefaultErrorHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLSchemaDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/CMNodeFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader
+instanceKlass org/w3c/dom/DOMConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSLoader
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarLoader
+instanceKlass javax/xml/validation/SecuritySupport$5
+instanceKlass javax/xml/validation/SchemaFactoryFinder$2
+instanceKlass javax/xml/validation/SecuritySupport$8
+instanceKlass javax/xml/validation/SecuritySupport$2
+instanceKlass javax/xml/validation/SchemaFactoryFinder
+instanceKlass javax/xml/validation/SecuritySupport$1
+instanceKlass javax/xml/validation/SecuritySupport
+instanceKlass javax/xml/validation/SchemaFactory
+instanceKlass com/sun/xml/internal/bind/v2/runtime/NameList
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/Intercepter
+instanceKlass com/sun/xml/internal/bind/v2/runtime/property/ArrayERProperty$ReceiverImpl
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/ChildLoader
+instanceKlass com/sun/xml/internal/bind/v2/runtime/unmarshaller/StructureLoader$1
+instanceKlass com/sun/xml/internal/bind/v2/runtime/property/UnmarshallerChain
+instanceKlass javax/xml/bind/annotation/W3CDomHandler
+instanceKlass javax/xml/bind/annotation/DomHandler
+instanceKlass com/sun/xml/internal/bind/v2/model/runtime/RuntimeArrayInfo
+instanceKlass com/sun/xml/internal/bind/v2/model/core/ArrayInfo
+instanceKlass com/sun/xml/internal/bind/v2/runtime/ElementBeanInfoImpl$1
+instanceKlass javax/xml/bind/JAXBElement$GlobalScope
+instanceKlass com/sun/xml/internal/bind/v2/runtime/Utils$1
+instanceKlass com/sun/xml/internal/bind/v2/runtime/Utils
+instanceKlass com/sun/xml/internal/bind/v2/ClassFactory
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/Lister$2
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/ListIterator
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/Lister
+instanceKlass com/sun/xml/internal/bind/v2/runtime/property/Utils$1
+instanceKlass com/sun/xml/internal/bind/v2/runtime/property/Utils
+instanceKlass com/sun/xml/internal/bind/v2/runtime/LifecycleMethods
+instanceKlass com/sun/xml/internal/bind/v2/runtime/property/TagAndType
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/OptimizedTransducedAccessorFactory
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/TransducedAccessor
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/Injector$1
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/Injector
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/SecureLoader
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/AccessorInjector
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/Ref
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/Bean
+instanceKlass com/sun/xml/internal/bind/v2/bytecode/ClassTailor
+instanceKlass com/sun/xml/internal/bind/v2/runtime/reflect/opt/OptimizedAccessorFactory

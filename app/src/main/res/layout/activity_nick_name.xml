@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:screenOrientation="sensorLandscape">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/tvMain"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/title_caro" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1" >
+
+
+        <EditText
+            android:id="@+id/txtNickname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/btnYes"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/yes"/>
+            <ImageButton
+                android:id="@+id/btnNo"
+                android:layout_marginLeft="100dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/no"/>
+    </LinearLayout>
+</LinearLayout>
