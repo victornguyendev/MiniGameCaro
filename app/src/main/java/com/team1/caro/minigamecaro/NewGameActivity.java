@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.team1.caro.minigamecaro.data.Data;
+import com.team1.caro.minigamecaro.popup.*;
 import com.team1.caro.minigamecaro.widget.MessageDialog;
 
 import java.util.List;
@@ -55,6 +56,11 @@ public class NewGameActivity extends Activity {
     private int soundId;
     private TextView numClick;
     private TextView tvNickname;
+    public static final String POPUP_HIGHSCORE = "highscore";
+    public static final String POPUP_TITLE = "title";
+    public static final String POPUP_ICON = "icon";
+
+    public static final String BUNDLE = "bundel";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,19 +71,6 @@ public class NewGameActivity extends Activity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_new_game);
         drawView = (DrawView) findViewById(R.id.drawView);
-
-        //zoom ban co, chua su dung duoc
-        /*
-        drawView = new DrawView(this);
-        // Allocate a RegionView.
-        final RegView_RelLayout lRegionView = (RegView_RelLayout) findViewById(R.id.regionView);
-        // Add some example items to drag.
-        lRegionView.addView(drawView);
-        // Assert that we only want to drag Views within the confines of the RegionView.
-        lRegionView.setWrapContent(false);
-        // Assert that after we've finished scaling a View, we want to stop being able to drag it until a new drag is started.
-        lRegionView.setDropOnScale(true);
-        */
 
         //undoButton = (Button) findViewById(R.id.btnHome);
         newGameButton = (Button) findViewById(R.id.btnReset);
@@ -154,6 +147,8 @@ public class NewGameActivity extends Activity {
                             if(Rule.isEnded(chessBoard,move,playerColor)){
                                 gameState = STATE_GAME_OVER;
                                 gameOverMessage(playerColor);
+                                COUNT_CLICK=0;
+                                numClick.setText(String.valueOf(COUNT_CLICK));
                             }
                             else {
                                 AI ai = new AI();
@@ -217,6 +212,8 @@ public class NewGameActivity extends Activity {
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
+
+        startActivity(new Intent(NewGameActivity.this,LevelActivity.class));
     }
 
     private void initialChessboard(){
@@ -228,18 +225,28 @@ public class NewGameActivity extends Activity {
     }
 
     private void gameOverMessage(byte playerColor){
-        String msg;
+        String highScore, title, icon;
+        highScore = String.valueOf(100-COUNT_CLICK);
         if (playerColor==BLACK) {
-            msg = "Your Win\n High score:" + String.valueOf(100-COUNT_CLICK);
-            Data.add_win_AI(getApplicationContext());
+            title = "Your Win!";
+            icon = "win";
         }
         else{
-            msg = ":Con gà!\nScore: "+ String.valueOf(100-COUNT_CLICK);
-            Data.add_lose_AI(getApplicationContext());
+            title = "Game Over!";
+            icon = "game_over";
         }
+        byBundle(highScore, title, icon);
+    }
 
-        msgDialog = new MessageDialog(NewGameActivity.this, msg);
-        msgDialog.show();
+    public void byBundle(String highScore, String title, String icon) {
+        Intent intent = new Intent(NewGameActivity.this, WinActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putString(POPUP_HIGHSCORE, highScore);
+        bundle.putString(POPUP_TITLE, title);
+        bundle.putString(POPUP_ICON, icon);
+        intent.putExtra(BUNDLE, bundle);
+        startActivity(intent);
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 
     @Override
